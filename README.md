@@ -7,8 +7,7 @@ This repository contains solutions to practice problems inspired by the exercise
 ## Structure
 The code is organized into three folders by difficulty level:
 
-- `beginner` – fundamental syntax and simple scripts.
-- `intermediate` – more involved problems, often using functions, error handling, or basic CLI patterns.
+- `beginner` – fundamental syntax and simple scripts, functions, error handling, or basic CLI patterns.
 - `real-world` – more practical, slightly larger scripts that resemble real use cases.
 
 Each file is a small, self-contained script that solves a single problem.
