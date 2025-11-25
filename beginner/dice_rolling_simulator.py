@@ -3,12 +3,16 @@
 import random
 
 
-def roll_dice():
+def roll_dice() -> int:
     """Return a random integer between 1 and 6, inclusive."""
-    return random.randrange(1, 7)
+    return random.randint(1, 6)
 
 
-random_number = roll_dice()
+def main() -> None:
+    """Roll the die and print the result."""
+    random_number = roll_dice()
+    print(f"You've rolled a {random_number}!")
 
-# Print outcome of the rolling dice to terminal
-print(f"You've rolled a {random_number}!")
+
+if __name__ == "__main__":
+    main()
