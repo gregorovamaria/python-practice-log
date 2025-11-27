@@ -3,10 +3,11 @@
 
 def boolean_to_string(b: bool) -> str:
     """Return string converted from boolean."""
-    if b is True:
-        return "True"
+    # if b is True:
+    #     return "True"
 
-    return "False"
+    # return "False"
+    return str(b)
 
 
 def main() -> None:
