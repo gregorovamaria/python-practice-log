@@ -7,7 +7,7 @@ Converts:
 and prints the results to terminal.
 """
 
-from typing import Iterable, Callable, List, Tuple
+from collections.abc import Callable, Iterable
 
 Conversion = Callable[[float], float]
 
@@ -41,7 +41,7 @@ def _normalize_unit(unit: str) -> str:
 
 def convert(
     values: Iterable[float], from_unit: str, to_unit: str
-) -> Tuple[List[float], List[float]]:
+) -> tuple[list[float], list[float]]:
     """
     Convert an iterable of values from one unit to another and
     return (original_values, converted_values) rounded to 2 decimals.
