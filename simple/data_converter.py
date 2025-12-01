@@ -16,8 +16,8 @@ _CONVERSIONS: dict[tuple[str, str], Conversion] = {
     ("f", "c"): lambda f: (f - 32) * 5 / 9,
     ("mi", "km"): lambda m: m * 1.60934,
     ("km", "mi"): lambda km: km / 1.60934,
-    ("usd", "eur"): lambda x: x * 0.86,  # example, NOT real rates
-    ("eur", "usd"): lambda x: x * 1.16,  # example, NOT real rates
+    ("usd", "eur"): lambda x: x * 0.86,
+    ("eur", "usd"): lambda x: x * 1.16,
 }
 
 
