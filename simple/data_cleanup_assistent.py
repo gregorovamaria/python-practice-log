@@ -9,7 +9,7 @@ def strip_whitespaces(lst: Iterable[str]) -> list[str]:
 
 
 def normalize_case(lst: Iterable[str]) -> list[str]:
-    """Capitalize every item in the list."""
+    """Capitalize every word of every item in the list."""
     return [item.title() for item in lst]
 
 
